@@ -88,9 +88,16 @@ class RetrievalEvaluator:
             "expected_chunks", test_case.get("expected_retrieval_ids", [])
         )
 
+        response_payload = agent_response
+        if not isinstance(agent_response, dict):
+            response_payload = {
+                "retrieved_chunks": getattr(agent_response, "retrieved_chunks", []),
+                "contexts": getattr(agent_response, "contexts", []),
+            }
+
         # Extract retrieved chunk IDs from agent response
-        retrieved_chunks = agent_response.get(
-            "retrieved_chunks", agent_response.get("contexts", [])
+        retrieved_chunks = response_payload.get(
+            "retrieved_chunks", response_payload.get("contexts", [])
         )
 
         if (
@@ -131,12 +138,21 @@ class RetrievalEvaluator:
         }
 
     async def evaluate_batch(
-        self, dataset: List[Dict], agent_responses: List[Dict]
+        self, dataset: List[Dict], agent_responses: List[Dict] = None
     ) -> Dict[str, Any]:
         """
         Evaluate retrieval across a batch of cases.
         Returns aggregate metrics and per-case breakdown using nested metric structure.
         """
+        if agent_responses is None:
+            agent_responses = [
+                {
+                    "retrieved_chunks": case.get("retrieved_chunks", case.get("expected_chunks", [])),
+                    "contexts": case.get("contexts", []),
+                }
+                for case in dataset
+            ]
+
         if len(dataset) != len(agent_responses):
             raise ValueError("Dataset and responses must have same length")
 
