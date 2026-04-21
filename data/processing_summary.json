@@ -1,0 +1,53 @@
+{
+  "processed_documents": 5,
+  "total_chunks_created": 38,
+  "chunks_stored": 38,
+  "chunking_strategy": "hybrid",
+  "preview_only": false,
+  "documents": [
+    {
+      "filepath": "data\\docs\\access_control_sop.txt",
+      "source": "access_control_sop.txt",
+      "chunks_created": 8,
+      "char_count": 2483,
+      "category": "access_control"
+    },
+    {
+      "filepath": "data\\docs\\hr_leave_policy.txt",
+      "source": "hr_leave_policy.txt",
+      "chunks_created": 7,
+      "char_count": 2115,
+      "category": "hr_policy"
+    },
+    {
+      "filepath": "data\\docs\\it_helpdesk_faq.txt",
+      "source": "it_helpdesk_faq.txt",
+      "chunks_created": 8,
+      "char_count": 2239,
+      "category": "it_support"
+    },
+    {
+      "filepath": "data\\docs\\policy_refund_v4.txt",
+      "source": "policy_refund_v4.txt",
+      "chunks_created": 7,
+      "char_count": 1835,
+      "category": "hr_policy"
+    },
+    {
+      "filepath": "data\\docs\\sla_p1_2026.txt",
+      "source": "sla_p1_2026.txt",
+      "chunks_created": 8,
+      "char_count": 2299,
+      "category": "service_level"
+    }
+  ],
+  "statistics": {
+    "total_chars": 11601,
+    "avg_chunk_size": 305.2894736842105,
+    "min_chunk_size": 106,
+    "max_chunk_size": 350,
+    "strategies_used": [
+      "semantic"
+    ]
+  }
+}

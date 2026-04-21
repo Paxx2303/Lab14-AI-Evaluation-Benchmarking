@@ -1,0 +1,22 @@
+# Qdrant Configuration
+service:
+  http_port: 6333
+  grpc_port: 6334
+  
+storage:
+  # Storage performance settings
+  performance:
+    max_search_threads: 4
+    update_threads: 1
+  
+  # Memory settings
+  memory_limit: 2gb
+  
+# Logging configuration
+log_level: INFO
+
+# API settings
+allow_cors: true
+
+# Telemetry (disabled for privacy)
+telemetry_disabled: true
