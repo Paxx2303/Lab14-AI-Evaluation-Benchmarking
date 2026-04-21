@@ -7,6 +7,7 @@ import pytest
 import json
 import os
 import sys
+import asyncio
 from pathlib import Path
 from unittest.mock import Mock, patch, MagicMock
 import numpy as np
@@ -495,9 +496,16 @@ class TestPerformanceAndScalability:
                 # Create larger set by duplicating and modifying IDs
                 large_dataset = []
                 for i in range(30):  # Simulate 50+ total
-                    for q_dict in base_questions:
-                        new_q = dict(q_dict)
-                        new_q["id"] = f"{new_q.get('id', 'q')}_{i}"
+                    for q_obj in base_questions:
+                        # Handle both dataclass objects and dicts
+                        if hasattr(q_obj, "__dict__"):
+                            new_q = {
+                                "id": f"{q_obj.id}_{i}",
+                                "question": q_obj.question,
+                            }
+                        else:
+                            new_q = dict(q_obj)
+                            new_q["id"] = f"{new_q.get('id', 'q')}_{i}"
                         large_dataset.append(new_q)
 
                 assert len(large_dataset) >= 50
