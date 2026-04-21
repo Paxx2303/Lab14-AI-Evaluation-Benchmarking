@@ -1,0 +1,4752 @@
+[
+  {
+    "question": "What are common failure patterns in systems that share similar architectural principles to microservices?",
+    "expected_answer": "Answer to 'What are common failure patterns in systems that share similar architectural principles to microservices?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What are common failure patterns in systems that share similar architectural principles to microservices?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What are common failure patterns in systems that share similar architectural principles to microservices?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11492010002257302,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which evaluation metrics are NOT suitable for measuring retrieval quality in RAG systems, excluding precision and recall?",
+    "expected_answer": "Answer to 'Which evaluation metrics are NOT suitable for measuring retrieval quality in RAG systems, excluding precision and recall?' requires negative_constraint reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which evaluation metrics are NOT suitable for measuring retrieval quality in RAG systems, excluding precision and recall?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which evaluation metrics are NOT suitable for measuring retrieval quality in RAG systems, excluding precision and recall?' requires negative_constraint reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.1166228000074625,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.87,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.85,
+        "claude-3-5-sonnet": 3.89
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.26,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.89,
+          "details": {
+            "accuracy": 3.26,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What evaluation approaches were developed after 2020 that address limitations of earlier RAG assessment methods?",
+    "expected_answer": "Answer to 'What evaluation approaches were developed after 2020 that address limitations of earlier RAG assessment methods?' requires temporal_reasoning reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "What evaluation approaches were developed after 2020 that address limitations of earlier RAG assessment methods?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What evaluation approaches were developed after 2020 that address limitations of earlier RAG assessment methods?' requires temporal_reasoning reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11564579996047541,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.83,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.8,
+        "claude-3-5-sonnet": 3.85
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.8,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare the trade-offs between using GPT-4 versus Claude-3 as judge models in terms of cost, accuracy, and bias.",
+    "expected_answer": "Answer to 'Compare the trade-offs between using GPT-4 versus Claude-3 as judge models in terms of cost, accuracy, and bias.' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare the trade-offs between using GPT-4 versus Claude-3 as judge models in terms of cost, accuracy, and bias.",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare the trade-offs between using GPT-4 versus Claude-3 as judge models in terms of cost, accuracy, and bias.' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.1168100000359118,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.94,
+      "agreement_rate": 0.992,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.92,
+        "claude-3-5-sonnet": 3.95
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.92,
+          "details": {
+            "accuracy": 3.39,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.39; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.95,
+          "details": {
+            "accuracy": 3.39,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.39; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.39; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.39; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "In the context of enterprise deployment, what are the key considerations for scaling evaluation systems that differ from research settings?",
+    "expected_answer": "Answer to 'In the context of enterprise deployment, what are the key considerations for scaling evaluation systems that differ from research settings?' requires context_dependent reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "In the context of enterprise deployment, what are the key considerations for scaling evaluation systems that differ from research settings?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'In the context of enterprise deployment, what are the key considerations for scaling evaluation systems that differ from research settings?' requires context_dependent reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11613629997009411,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.91,
+      "agreement_rate": 0.993,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.89,
+        "claude-3-5-sonnet": 3.92
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.89,
+          "details": {
+            "accuracy": 3.32,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.32; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.92,
+          "details": {
+            "accuracy": 3.32,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.32; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.32; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.32; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "If a RAG system achieves 100% Hit Rate but 0% Faithfulness, what does this indicate about the system's failure mode?",
+    "expected_answer": "Answer to 'If a RAG system achieves 100% Hit Rate but 0% Faithfulness, what does this indicate about the system's failure mode?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "If a RAG system achieves 100% Hit Rate but 0% Faithfulness, what does this indicate about the system's failure mode?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'If a RAG system achieves 100% Hit Rate but 0% Faithfulness, what does this indicate about the system's failure mode?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11008509999373928,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.92,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.9,
+        "claude-3-5-sonnet": 3.94
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.9,
+          "details": {
+            "accuracy": 3.35,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.35; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.94,
+          "details": {
+            "accuracy": 3.35,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.35; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.35; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.35; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which of the following is NOT a valid reason for a retrieval system to return irrelevant chunks?",
+    "expected_answer": "Answer to 'Which of the following is NOT a valid reason for a retrieval system to return irrelevant chunks?' requires negative_constraint reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which of the following is NOT a valid reason for a retrieval system to return irrelevant chunks?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which of the following is NOT a valid reason for a retrieval system to return irrelevant chunks?' requires negative_constraint reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.1119438000023365,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.83,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.8,
+        "claude-3-5-sonnet": 3.85
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.8,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Before the introduction of RAGAS, what metrics were primarily used to evaluate retrieval quality?",
+    "expected_answer": "Answer to 'Before the introduction of RAGAS, what metrics were primarily used to evaluate retrieval quality?' requires temporal_reasoning reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "Before the introduction of RAGAS, what metrics were primarily used to evaluate retrieval quality?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Before the introduction of RAGAS, what metrics were primarily used to evaluate retrieval quality?' requires temporal_reasoning reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11084799998207018,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "How does hybrid search (combining dense and sparse embeddings) compare to pure vector search in handling rare terminology?",
+    "expected_answer": "Answer to 'How does hybrid search (combining dense and sparse embeddings) compare to pure vector search in handling rare terminology?' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "How does hybrid search (combining dense and sparse embeddings) compare to pure vector search in handling rare terminology?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'How does hybrid search (combining dense and sparse embeddings) compare to pure vector search in handling rare terminology?' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11244719999376684,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.85,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.83,
+        "claude-3-5-sonnet": 3.87
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.87,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "In a multilingual RAG system, what contextual factors affect chunking strategy that don't apply to monolingual systems?",
+    "expected_answer": "Answer to 'In a multilingual RAG system, what contextual factors affect chunking strategy that don't apply to monolingual systems?' requires context_dependent reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "In a multilingual RAG system, what contextual factors affect chunking strategy that don't apply to monolingual systems?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'In a multilingual RAG system, what contextual factors affect chunking strategy that don't apply to monolingual systems?' requires context_dependent reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11135889997240156,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.38,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.41,
+        "claude-3-5-sonnet": 3.35
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.41,
+          "details": {
+            "accuracy": 3.26,
+            "tone": 2.4,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.26; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.35,
+          "details": {
+            "accuracy": 3.26,
+            "tone": 2.4,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.26; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.26; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.26; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What implicit relationships must a RAG system understand to correctly answer questions about software licensing implications?",
+    "expected_answer": "Answer to 'What implicit relationships must a RAG system understand to correctly answer questions about software licensing implications?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What implicit relationships must a RAG system understand to correctly answer questions about software licensing implications?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What implicit relationships must a RAG system understand to correctly answer questions about software licensing implications?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10535709996474907,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which techniques are inappropriate for reducing hallucination in RAG outputs, excluding prompt engineering?",
+    "expected_answer": "Answer to 'Which techniques are inappropriate for reducing hallucination in RAG outputs, excluding prompt engineering?' requires negative_constraint reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which techniques are inappropriate for reducing hallucination in RAG outputs, excluding prompt engineering?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which techniques are inappropriate for reducing hallucination in RAG outputs, excluding prompt engineering?' requires negative_constraint reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10706280003068969,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "How did the introduction of attention mechanisms in 2017 influence modern RAG evaluation practices?",
+    "expected_answer": "Answer to 'How did the introduction of attention mechanisms in 2017 influence modern RAG evaluation practices?' requires temporal_reasoning reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "How did the introduction of attention mechanisms in 2017 influence modern RAG evaluation practices?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'How did the introduction of attention mechanisms in 2017 influence modern RAG evaluation practices?' requires temporal_reasoning reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10600530001102015,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare the effectiveness of BM25 versus semantic search for answering yes/no questions versus open-ended questions.",
+    "expected_answer": "Answer to 'Compare the effectiveness of BM25 versus semantic search for answering yes/no questions versus open-ended questions.' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare the effectiveness of BM25 versus semantic search for answering yes/no questions versus open-ended questions.",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare the effectiveness of BM25 versus semantic search for answering yes/no questions versus open-ended questions.' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10752320004394278,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.83,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.8,
+        "claude-3-5-sonnet": 3.85
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.8,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "For medical diagnosis RAG systems, what domain-specific evaluation criteria must be considered that don't apply to general QA?",
+    "expected_answer": "Answer to 'For medical diagnosis RAG systems, what domain-specific evaluation criteria must be considered that don't apply to general QA?' requires context_dependent reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "For medical diagnosis RAG systems, what domain-specific evaluation criteria must be considered that don't apply to general QA?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'For medical diagnosis RAG systems, what domain-specific evaluation criteria must be considered that don't apply to general QA?' requires context_dependent reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10649209999246523,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.91,
+      "agreement_rate": 0.993,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.89,
+        "claude-3-5-sonnet": 3.92
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.89,
+          "details": {
+            "accuracy": 3.32,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.32; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.92,
+          "details": {
+            "accuracy": 3.32,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.32; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.32; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.32; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What unstated assumptions must a user make for a RAG system to return a satisfactory answer?",
+    "expected_answer": "Answer to 'What unstated assumptions must a user make for a RAG system to return a satisfactory answer?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What unstated assumptions must a user make for a RAG system to return a satisfactory answer?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What unstated assumptions must a user make for a RAG system to return a satisfactory answer?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10410250001586974,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.76,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.73,
+        "claude-3-5-sonnet": 3.79
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.73,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.79,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which of these is NOT a valid component of a golden dataset for RAG evaluation?",
+    "expected_answer": "Answer to 'Which of these is NOT a valid component of a golden dataset for RAG evaluation?' requires negative_constraint reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which of these is NOT a valid component of a golden dataset for RAG evaluation?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which of these is NOT a valid component of a golden dataset for RAG evaluation?' requires negative_constraint reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10526229999959469,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "After the 2022 release of ChatGPT, how did RAG evaluation methodologies shift from pre-chatbot era approaches?",
+    "expected_answer": "Answer to 'After the 2022 release of ChatGPT, how did RAG evaluation methodologies shift from pre-chatbot era approaches?' requires temporal_reasoning reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "After the 2022 release of ChatGPT, how did RAG evaluation methodologies shift from pre-chatbot era approaches?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'After the 2022 release of ChatGPT, how did RAG evaluation methodologies shift from pre-chatbot era approaches?' requires temporal_reasoning reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10458660003496334,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.87,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.85,
+        "claude-3-5-sonnet": 3.89
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.26,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.89,
+          "details": {
+            "accuracy": 3.26,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare chunk overlap strategies: fixed overlap vs semantic boundary detection in terms of context preservation.",
+    "expected_answer": "Answer to 'Compare chunk overlap strategies: fixed overlap vs semantic boundary detection in terms of context preservation.' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare chunk overlap strategies: fixed overlap vs semantic boundary detection in terms of context preservation.",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare chunk overlap strategies: fixed overlap vs semantic boundary detection in terms of context preservation.' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10553240001900122,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "In low-resource language RAG systems, what contextual challenges arise that require different evaluation approaches?",
+    "expected_answer": "Answer to 'In low-resource language RAG systems, what contextual challenges arise that require different evaluation approaches?' requires context_dependent reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "In low-resource language RAG systems, what contextual challenges arise that require different evaluation approaches?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'In low-resource language RAG systems, what contextual challenges arise that require different evaluation approaches?' requires context_dependent reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10493760003009811,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.34,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.37,
+        "claude-3-5-sonnet": 3.31
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.37,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 2.4,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.31,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 2.4,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.18; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.18; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What logical chain of reasoning connects document citation formats to answer attribution accuracy?",
+    "expected_answer": "Answer to 'What logical chain of reasoning connects document citation formats to answer attribution accuracy?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What logical chain of reasoning connects document citation formats to answer attribution accuracy?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What logical chain of reasoning connects document citation formats to answer attribution accuracy?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10204500000691041,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.71,
+      "agreement_rate": 0.983,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.68,
+        "claude-3-5-sonnet": 3.75
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.68,
+          "details": {
+            "accuracy": 2.97,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=2.97; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.75,
+          "details": {
+            "accuracy": 2.97,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=2.97; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=2.97; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=2.97; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which ranking metrics are unsuitable for evaluating cross-lingual retrieval quality?",
+    "expected_answer": "Answer to 'Which ranking metrics are unsuitable for evaluating cross-lingual retrieval quality?' requires negative_constraint reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which ranking metrics are unsuitable for evaluating cross-lingual retrieval quality?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which ranking metrics are unsuitable for evaluating cross-lingual retrieval quality?' requires negative_constraint reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10276879998855293,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.25,
+      "agreement_rate": 0.988,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.28,
+        "claude-3-5-sonnet": 3.23
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.28,
+          "details": {
+            "accuracy": 3.02,
+            "tone": 2.4,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.02; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.23,
+          "details": {
+            "accuracy": 3.02,
+            "tone": 2.4,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.02; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.02; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.02; tone=2.40; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Câu trả lời có dấu hiệu thiếu chuyên nghiệp hoặc gây khó chịu.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Before transformers, what retrieval evaluation paradigms existed and how did they influence modern metrics?",
+    "expected_answer": "Answer to 'Before transformers, what retrieval evaluation paradigms existed and how did they influence modern metrics?' requires temporal_reasoning reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "Before transformers, what retrieval evaluation paradigms existed and how did they influence modern metrics?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Before transformers, what retrieval evaluation paradigms existed and how did they influence modern metrics?' requires temporal_reasoning reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10233329999027774,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare single-vector-per-document vs multi-vector chunk representation for capturing nuanced meanings.",
+    "expected_answer": "Answer to 'Compare single-vector-per-document vs multi-vector chunk representation for capturing nuanced meanings.' requires comparative_analysis reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare single-vector-per-document vs multi-vector chunk representation for capturing nuanced meanings.",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare single-vector-per-document vs multi-vector chunk representation for capturing nuanced meanings.' requires comparative_analysis reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10294359998079017,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "For legal document RAG, what contextual factors affect citation precision requirements compared to technical docs?",
+    "expected_answer": "Answer to 'For legal document RAG, what contextual factors affect citation precision requirements compared to technical docs?' requires context_dependent reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "For legal document RAG, what contextual factors affect citation precision requirements compared to technical docs?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'For legal document RAG, what contextual factors affect citation precision requirements compared to technical docs?' requires context_dependent reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.1025439000222832,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What hidden relationship exists between chunk size and the ability to answer questions requiring cross-sentence reasoning?",
+    "expected_answer": "Answer to 'What hidden relationship exists between chunk size and the ability to answer questions requiring cross-sentence reasoning?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What hidden relationship exists between chunk size and the ability to answer questions requiring cross-sentence reasoning?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What hidden relationship exists between chunk size and the ability to answer questions requiring cross-sentence reasoning?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.1000351999537088,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which query expansion techniques are ineffective for highly technical domain-specific terminology?",
+    "expected_answer": "Answer to 'Which query expansion techniques are ineffective for highly technical domain-specific terminology?' requires negative_constraint reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which query expansion techniques are ineffective for highly technical domain-specific terminology?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which query expansion techniques are ineffective for highly technical domain-specific terminology?' requires negative_constraint reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10196060000453144,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.76,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.73,
+        "claude-3-5-sonnet": 3.79
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.73,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.79,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "How did the development of attention visualization tools in 2018-2020 improve our ability to evaluate RAG faithfulness?",
+    "expected_answer": "Answer to 'How did the development of attention visualization tools in 2018-2020 improve our ability to evaluate RAG faithfulness?' requires temporal_reasoning reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "How did the development of attention visualization tools in 2018-2020 improve our ability to evaluate RAG faithfulness?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'How did the development of attention visualization tools in 2018-2020 improve our ability to evaluate RAG faithfulness?' requires temporal_reasoning reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.1008492999826558,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.87,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.85,
+        "claude-3-5-sonnet": 3.89
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.26,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.89,
+          "details": {
+            "accuracy": 3.26,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.26; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare human evaluation vs automated metrics for measuring answer completeness in technical documentation.",
+    "expected_answer": "Answer to 'Compare human evaluation vs automated metrics for measuring answer completeness in technical documentation.' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare human evaluation vs automated metrics for measuring answer completeness in technical documentation.",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare human evaluation vs automated metrics for measuring answer completeness in technical documentation.' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10243990004528314,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.76,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.73,
+        "claude-3-5-sonnet": 3.79
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.73,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.79,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "In real-time news RAG systems, what contextual latency constraints affect evaluation that don't apply to static corpora?",
+    "expected_answer": "Answer to 'In real-time news RAG systems, what contextual latency constraints affect evaluation that don't apply to static corpora?' requires context_dependent reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "In real-time news RAG systems, what contextual latency constraints affect evaluation that don't apply to static corpora?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'In real-time news RAG systems, what contextual latency constraints affect evaluation that don't apply to static corpora?' requires context_dependent reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10143570002401248,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.89,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.87,
+        "claude-3-5-sonnet": 3.91
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.87,
+          "details": {
+            "accuracy": 3.29,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.29; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.91,
+          "details": {
+            "accuracy": 3.29,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.29; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.29; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.29; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What causal relationship connects embedding model training data to retrieval bias in specialized domains?",
+    "expected_answer": "Answer to 'What causal relationship connects embedding model training data to retrieval bias in specialized domains?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What causal relationship connects embedding model training data to retrieval bias in specialized domains?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What causal relationship connects embedding model training data to retrieval bias in specialized domains?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11352650000480935,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which re-ranking strategies fail to improve results for queries with ambiguous intent?",
+    "expected_answer": "Answer to 'Which re-ranking strategies fail to improve results for queries with ambiguous intent?' requires negative_constraint reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which re-ranking strategies fail to improve results for queries with ambiguous intent?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which re-ranking strategies fail to improve results for queries with ambiguous intent?' requires negative_constraint reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11486089997924864,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.76,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.73,
+        "claude-3-5-sonnet": 3.79
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.73,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.79,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "How did the introduction of InstructGPT in 2022 change expectations for RAG answer tone evaluation?",
+    "expected_answer": "Answer to 'How did the introduction of InstructGPT in 2022 change expectations for RAG answer tone evaluation?' requires temporal_reasoning reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "How did the introduction of InstructGPT in 2022 change expectations for RAG answer tone evaluation?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'How did the introduction of InstructGPT in 2022 change expectations for RAG answer tone evaluation?' requires temporal_reasoning reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11406260001240298,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare token-limited vs unlimited context windows for long-document RAG in terms of information preservation.",
+    "expected_answer": "Answer to 'Compare token-limited vs unlimited context windows for long-document RAG in terms of information preservation.' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare token-limited vs unlimited context windows for long-document RAG in terms of information preservation.",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare token-limited vs unlimited context windows for long-document RAG in terms of information preservation.' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11522380000678822,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.85,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.83,
+        "claude-3-5-sonnet": 3.87
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.87,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "For customer support RAG, what contextual factors determine acceptable latency that differ from research benchmarks?",
+    "expected_answer": "Answer to 'For customer support RAG, what contextual factors determine acceptable latency that differ from research benchmarks?' requires context_dependent reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "For customer support RAG, what contextual factors determine acceptable latency that differ from research benchmarks?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'For customer support RAG, what contextual factors determine acceptable latency that differ from research benchmarks?' requires context_dependent reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11446579999756068,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.83,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.8,
+        "claude-3-5-sonnet": 3.85
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.8,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What logical inference connects question complexity to the number of relevant chunks required for accurate answers?",
+    "expected_answer": "Answer to 'What logical inference connects question complexity to the number of relevant chunks required for accurate answers?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What logical inference connects question complexity to the number of relevant chunks required for accurate answers?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What logical inference connects question complexity to the number of relevant chunks required for accurate answers?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10516049998113886,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.83,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.8,
+        "claude-3-5-sonnet": 3.85
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.8,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which synthetic data generation methods produce unreliable evaluation results for edge cases?",
+    "expected_answer": "Answer to 'Which synthetic data generation methods produce unreliable evaluation results for edge cases?' requires negative_constraint reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which synthetic data generation methods produce unreliable evaluation results for edge cases?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which synthetic data generation methods produce unreliable evaluation results for edge cases?' requires negative_constraint reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10678430000552908,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.76,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.73,
+        "claude-3-5-sonnet": 3.79
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.73,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.79,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Before RAGAS (2023), what was the standard approach to measuring answer faithfulness to retrieved context?",
+    "expected_answer": "Answer to 'Before RAGAS (2023), what was the standard approach to measuring answer faithfulness to retrieved context?' requires temporal_reasoning reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "Before RAGAS (2023), what was the standard approach to measuring answer faithfulness to retrieved context?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Before RAGAS (2023), what was the standard approach to measuring answer faithfulness to retrieved context?' requires temporal_reasoning reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10578469996107742,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.76,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.73,
+        "claude-3-5-sonnet": 3.79
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.73,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.79,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare self-critique vs external judge evaluation for detecting hallucinations in RAG outputs.",
+    "expected_answer": "Answer to 'Compare self-critique vs external judge evaluation for detecting hallucinations in RAG outputs.' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare self-critique vs external judge evaluation for detecting hallucinations in RAG outputs.",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare self-critique vs external judge evaluation for detecting hallucinations in RAG outputs.' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10720850003417581,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "In regulated industries, what contextual compliance requirements affect RAG evaluation that don't exist in general use?",
+    "expected_answer": "Answer to 'In regulated industries, what contextual compliance requirements affect RAG evaluation that don't exist in general use?' requires context_dependent reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "In regulated industries, what contextual compliance requirements affect RAG evaluation that don't exist in general use?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'In regulated industries, what contextual compliance requirements affect RAG evaluation that don't exist in general use?' requires context_dependent reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10625680000521243,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.85,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.83,
+        "claude-3-5-sonnet": 3.87
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.87,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What hidden correlation exists between user query length and retrieval difficulty for complex reasoning tasks?",
+    "expected_answer": "Answer to 'What hidden correlation exists between user query length and retrieval difficulty for complex reasoning tasks?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What hidden correlation exists between user query length and retrieval difficulty for complex reasoning tasks?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What hidden correlation exists between user query length and retrieval difficulty for complex reasoning tasks?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10752510000020266,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which annotation guidelines produce inconsistent ground truth labels for context-dependent questions?",
+    "expected_answer": "Answer to 'Which annotation guidelines produce inconsistent ground truth labels for context-dependent questions?' requires negative_constraint reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which annotation guidelines produce inconsistent ground truth labels for context-dependent questions?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which annotation guidelines produce inconsistent ground truth labels for context-dependent questions?' requires negative_constraint reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11006150004686788,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.76,
+      "agreement_rate": 0.985,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.73,
+        "claude-3-5-sonnet": 3.79
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.73,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.79,
+          "details": {
+            "accuracy": 3.06,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.06; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "How did the evolution from word embeddings to transformer embeddings (2013-2017) change retrieval evaluation focus?",
+    "expected_answer": "Answer to 'How did the evolution from word embeddings to transformer embeddings (2013-2017) change retrieval evaluation focus?' requires temporal_reasoning reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "How did the evolution from word embeddings to transformer embeddings (2013-2017) change retrieval evaluation focus?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'How did the evolution from word embeddings to transformer embeddings (2013-2017) change retrieval evaluation focus?' requires temporal_reasoning reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10849130002316087,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare topical relevance vs factual accuracy in RAG answer evaluation - which is more critical for trust?",
+    "expected_answer": "Answer to 'Compare topical relevance vs factual accuracy in RAG answer evaluation - which is more critical for trust?' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare topical relevance vs factual accuracy in RAG answer evaluation - which is more critical for trust?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare topical relevance vs factual accuracy in RAG answer evaluation - which is more critical for trust?' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11069359997054562,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.83,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.8,
+        "claude-3-5-sonnet": 3.85
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.8,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "For voice-based RAG interfaces, what contextual factors affect answer formatting requirements compared to text?",
+    "expected_answer": "Answer to 'For voice-based RAG interfaces, what contextual factors affect answer formatting requirements compared to text?' requires context_dependent reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "For voice-based RAG interfaces, what contextual factors affect answer formatting requirements compared to text?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'For voice-based RAG interfaces, what contextual factors affect answer formatting requirements compared to text?' requires context_dependent reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10933169996133074,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "What inferred relationship exists between corpus diversity and a RAG system's ability to handle novel queries?",
+    "expected_answer": "Answer to 'What inferred relationship exists between corpus diversity and a RAG system's ability to handle novel queries?' requires semantic_inference reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_semantic_inference_0",
+      "chunk_semantic_inference_1"
+    ],
+    "test_case": "What inferred relationship exists between corpus diversity and a RAG system's ability to handle novel queries?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'What inferred relationship exists between corpus diversity and a RAG system's ability to handle novel queries?' requires semantic_inference reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_semantic_inference_0",
+        "content": "Context chunk for semantic_inference reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_semantic_inference_1",
+        "content": "Context chunk for semantic_inference reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10822359996382147,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.85,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.83,
+        "claude-3-5-sonnet": 3.87
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.87,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Which evaluation frameworks are unsuitable for comparing RAG systems with different underlying LLMs?",
+    "expected_answer": "Answer to 'Which evaluation frameworks are unsuitable for comparing RAG systems with different underlying LLMs?' requires negative_constraint reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_negative_constraint_0",
+      "chunk_negative_constraint_1"
+    ],
+    "test_case": "Which evaluation frameworks are unsuitable for comparing RAG systems with different underlying LLMs?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Which evaluation frameworks are unsuitable for comparing RAG systems with different underlying LLMs?' requires negative_constraint reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_negative_constraint_0",
+        "content": "Context chunk for negative_constraint reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_negative_constraint_1",
+        "content": "Context chunk for negative_constraint reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11059510003542528,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.79,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.76,
+        "claude-3-5-sonnet": 3.81
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.76,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.81,
+          "details": {
+            "accuracy": 3.1,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.10; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Before LLM judges (2023), how were RAG answer quality assessments primarily conducted in production systems?",
+    "expected_answer": "Answer to 'Before LLM judges (2023), how were RAG answer quality assessments primarily conducted in production systems?' requires temporal_reasoning reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_temporal_reasoning_0",
+      "chunk_temporal_reasoning_1"
+    ],
+    "test_case": "Before LLM judges (2023), how were RAG answer quality assessments primarily conducted in production systems?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Before LLM judges (2023), how were RAG answer quality assessments primarily conducted in production systems?' requires temporal_reasoning reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_temporal_reasoning_0",
+        "content": "Context chunk for temporal_reasoning reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_temporal_reasoning_1",
+        "content": "Context chunk for temporal_reasoning reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10915370000293478,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.8,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.78,
+        "claude-3-5-sonnet": 3.83
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.78,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.15,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.15; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "Compare top-k selection vs threshold-based retrieval for balancing precision and recall in production RAG.",
+    "expected_answer": "Answer to 'Compare top-k selection vs threshold-based retrieval for balancing precision and recall in production RAG.' requires comparative_analysis reasoning at medium level.",
+    "expected_chunks": [
+      "chunk_comparative_analysis_0",
+      "chunk_comparative_analysis_1"
+    ],
+    "test_case": "Compare top-k selection vs threshold-based retrieval for balancing precision and recall in production RAG.",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'Compare top-k selection vs threshold-based retrieval for balancing precision and recall in production RAG.' requires comparative_analysis reasoning at medium level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_comparative_analysis_0",
+        "content": "Context chunk for comparative_analysis reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_comparative_analysis_1",
+        "content": "Context chunk for comparative_analysis reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.11117589997593313,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.85,
+      "agreement_rate": 0.99,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.83,
+        "claude-3-5-sonnet": 3.87
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.83,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.87,
+          "details": {
+            "accuracy": 3.22,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.22; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  },
+  {
+    "question": "For conversational RAG, what contextual factors affect turn-by-turn evaluation that don't apply to single-turn?",
+    "expected_answer": "Answer to 'For conversational RAG, what contextual factors affect turn-by-turn evaluation that don't apply to single-turn?' requires context_dependent reasoning at hard level.",
+    "expected_chunks": [
+      "chunk_context_dependent_0",
+      "chunk_context_dependent_1"
+    ],
+    "test_case": "For conversational RAG, what contextual factors affect turn-by-turn evaluation that don't apply to single-turn?",
+    "agent_response": "Cảm ơn bạn đã đặt câu hỏi. Dựa trên tài liệu hệ thống, Answer to 'For conversational RAG, what contextual factors affect turn-by-turn evaluation that don't apply to single-turn?' requires context_dependent reasoning at hard level. Vui lòng tham khảo thêm để biết chi tiết.",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "chunk_context_dependent_0",
+        "content": "Context chunk for context_dependent reasoning type 0",
+        "score": 0.98
+      },
+      {
+        "chunk_id": "chunk_context_dependent_1",
+        "content": "Context chunk for context_dependent reasoning type 1",
+        "score": 0.98
+      }
+    ],
+    "latency": 0.10992060002172366,
+    "tokens_used": 150,
+    "estimated_cost_usd": 0.00015,
+    "model": "local-retrieval-model",
+    "ragas": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    },
+    "judge": {
+      "final_score": 3.83,
+      "agreement_rate": 0.987,
+      "cohen_kappa": 1.0,
+      "consensus_strategy": "average",
+      "tie_breaker_used": false,
+      "individual_scores": {
+        "gpt-4o": 3.8,
+        "claude-3-5-sonnet": 3.85
+      },
+      "judge_details": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "score": 3.8,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        },
+        "claude-3-5-sonnet": {
+          "model": "claude-3-5-sonnet",
+          "score": 3.85,
+          "details": {
+            "accuracy": 3.18,
+            "tone": 4.2,
+            "safety": 5.0
+          },
+          "reasoning": "accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+        }
+      },
+      "reasoning": "High agreement across judges. Primary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy. | Secondary: accuracy=3.18; tone=4.20; safety=5.00; notes=Câu trả lời bám được phần lớn nội dung ground truth.; Giọng điệu nhìn chung trung tính và chuyên nghiệp.; Không thấy dấu hiệu hướng dẫn nguy hiểm hoặc vi phạm policy."
+    },
+    "status": "pass",
+    "metrics": {
+      "retrieval": {
+        "hit_rate": 1.0,
+        "mrr": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "f1_at_k": 1.0,
+        "quality_score": 1.0
+      },
+      "generation": {
+        "faithfulness": 0.0,
+        "relevancy": 0.0,
+        "completeness": 0.0,
+        "clarity": 0.0,
+        "overall": 0.0
+      }
+    }
+  }
+]
